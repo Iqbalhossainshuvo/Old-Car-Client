@@ -1,0 +1,13 @@
+#app {
+    height: 100%
+}
+
+.new-tag {
+    transition: 1s;
+}
+
+.latest-cars-container:hover .new-tag {
+    transform: rotateY(360deg);
+    background-color: red;
+    color: white;
+}
